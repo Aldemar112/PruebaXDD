@@ -7,6 +7,7 @@ create procedure SP_LoginUsuario
 as
 	SELECT * FROM Usuario WHERE Contraseña = @Contraseña AND Cedula = @Cedula AND Estado = 1
 go
+select*from Usuario
 
 Create procedure SP_BuscarUsuario
 as
@@ -36,3 +37,17 @@ as
 	WHERE Cedula = @Cedula
 go
 
+create procedure SP_ModificarUsuariocontraseña
+@Contraseña Varchar(100),
+@Cedula varchar(15)
+as
+	UPDATE Usuario SET Correo='omar12301moya@gmail.com'
+	WHERE Cedula = 1005199720
+go
+
+
+create procedure SP_Traercorreo
+@Cedula varchar(15)
+as
+select correo from Usuario where Cedula=@Cedula
+go
