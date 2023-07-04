@@ -1,5 +1,6 @@
 ﻿using HotelRivera_Proyecto.Datos;
 using HotelRivera_Proyecto.Entidades;
+using HotelRivera_Proyecto.Presentacion;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -31,6 +32,20 @@ namespace HotelRivera_Proyecto.Negocios
         public void EditarUsuario(CE_usuario oCE_usuario)
         {
             oCD_usuario.EditarUsuario(oCE_usuario);
+        }
+
+        public void Editarcontraseña(CE_usuario oCE_usuario)
+        {
+            oCD_usuario.EditarContraseña(oCE_usuario);
+        }
+        //public string Traercoreo(CE_usuario oCE_usuario)
+        //{
+        //    return oCD_usuario.Traercorreo(oCE_usuario);
+        //}
+        public void Traercoreo(CE_usuario oCE_usuario)
+        {
+            string Correo = oCD_usuario.Traercorreo(oCE_usuario);
+            Global.Correo = Correo;
         }
     }
 }

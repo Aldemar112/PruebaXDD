@@ -7,6 +7,8 @@ using System.Text;
 using System.Threading.Tasks;
 using HotelRivera_Proyecto.Presentacion;
 using HotelRivera_Proyecto.Entidades;
+using HotelRivera_Proyecto.Negocios;
+using System.Windows.Forms;
 
 namespace HotelRivera_Proyecto.Datos
 {
@@ -106,6 +108,75 @@ namespace HotelRivera_Proyecto.Datos
                 catch (Exception ex) { Console.WriteLine("Error al actualizar el usuario: " + ex.Message); }
             }
         }
+
+        public void EditarContraseña(CE_usuario oCE_usuario)
+        {
+            using (SqlConnection conexion = new SqlConnection(CD_conexion.conexion))
+            {
+               try
+               {
+                    conexion.Open();
+                    using (SqlCommand comando = new SqlCommand("SP_ModificarUsuariocontraseña", conexion))
+                    {
+                        comando.CommandType = CommandType.StoredProcedure;
+                        comando.Parameters.AddWithValue("@Cedula", oCE_usuario.Cedula);
+                        comando.Parameters.AddWithValue("@Contraseña", oCE_usuario.Contraseña);
+                        //comando.Parameters.Clear();
+                        comando.ExecuteNonQuery();
+                    }
+               }
+               catch (Exception ex) { Console.WriteLine("Error al cambiar la contraseña: " + ex.Message); }
+            }
+        }
+
+        public string Traercorreo(CE_usuario oCE_usuario)
+        {
+            string CorreoNULL=" ";
+            using (SqlConnection conexion = new SqlConnection(CD_conexion.conexion))
+            {
+                try
+                {
+                    conexion.Open();
+                    using (SqlCommand comando = new SqlCommand("SP_Traercorreo", conexion))
+                    {
+                        comando.CommandType = CommandType.StoredProcedure;
+                        comando.Parameters.AddWithValue("@Cedula", oCE_usuario.Cedula);
+                        using (SqlDataReader leer = comando.ExecuteReader())
+                        {
+                            if (leer.Read())
+                            {  
+                                string Correo = leer.GetString(leer.GetOrdinal("Correo"));
+                                return Correo;
+                            }
+                        }
+                    }
+                }
+                catch (Exception ex) { Console.WriteLine("No hay correo"); }
+            }
+            return CorreoNULL;
+
+            //comando.Parameters.Clear();
+            //comando.Connection = Conexion.abrirconexion();
+            //comando.CommandText = "TraerProducto";
+            //comando.Parameters.AddWithValue("@Cod", Producto.Codigo);
+            //comando.CommandType = CommandType.StoredProcedure;
+            //leer = comando.ExecuteReader();
+            //if (leer.Read())
+            //{
+            //    int cantidad = Convert.ToInt32(leer["Valor_Unidad"]);
+            //    leer.Close();
+            //    return cantidad;
+            //}
+            //else
+            //{
+            //    leer.Close();
+            //    return 0;
+            //}
+            //Conexion.Cerrarconxion();
+        }
+
+
+
     }
 }
 

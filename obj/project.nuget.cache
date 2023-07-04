@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "b26DH8MdPY/RkkoJA15FFFfMgKfXi5Y4xWmdSgiLFzdvD5eBGiOp3fiS6xMsOA52bIyAiTWbN/HaJuR1iBLs0g==",
+  "dgSpecHash": "+EvnMbPdqNQl5fVWfyGiED5cSysv1Z/nOn6CyY9jvGHS8b2m6JsXw7sTiPBr8ExQbwWeOIx+/xrULzIccqo4nQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Aldemar DEV\\OneDrive\\Escritorio\\Proyecto final Jose\\HotelRivera_Proyecto\\HotelRivera_Proyecto.csproj",
+  "projectFilePath": "C:\\Users\\Aldemar DEV\\OneDrive\\Escritorio\\Proyecto final Jose\\HotelRivera_Proyecto_Jose\\HotelRivera_Proyecto.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Aldemar DEV\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\Aldemar DEV\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

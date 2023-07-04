@@ -3,7 +3,11 @@ use Hotel_Rivera
 
 insert into Roles values (1,'Admin'),(2,'Recepcionista')
 
+select*From Usuario
+
 Insert into Usuario values ('1005199720','Omar Moya','admin','omar123@gmail.com',1,1)
+
+Insert into Usuario values ('100519972','Omar Moya','admin','aldemarcuadros10@gmail.com',1,1)
 
 Insert into Estado values (1,'Inactivo'),(2,'En uso'),(3,'Cancelado'),(4,'Facturado')
 

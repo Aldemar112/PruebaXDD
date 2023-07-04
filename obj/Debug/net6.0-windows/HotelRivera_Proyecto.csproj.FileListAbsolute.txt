@@ -55,3 +55,36 @@ D:\Omar\Proyecto\HotelRivera_Proyecto\obj\Debug\net6.0-windows\refint\HotelRiver
 D:\Omar\Proyecto\HotelRivera_Proyecto\obj\Debug\net6.0-windows\HotelRivera_Proyecto.pdb
 D:\Omar\Proyecto\HotelRivera_Proyecto\obj\Debug\net6.0-windows\HotelRivera_Proyecto.genruntimeconfig.cache
 D:\Omar\Proyecto\HotelRivera_Proyecto\obj\Debug\net6.0-windows\ref\HotelRivera_Proyecto.dll
+C:\Users\Aldemar DEV\OneDrive\Escritorio\Proyecto final\HotelRivera_Proyecto\bin\Debug\net6.0-windows\HotelRivera_Proyecto.exe
+C:\Users\Aldemar DEV\OneDrive\Escritorio\Proyecto final\HotelRivera_Proyecto\bin\Debug\net6.0-windows\HotelRivera_Proyecto.deps.json
+C:\Users\Aldemar DEV\OneDrive\Escritorio\Proyecto final\HotelRivera_Proyecto\bin\Debug\net6.0-windows\HotelRivera_Proyecto.runtimeconfig.json
+C:\Users\Aldemar DEV\OneDrive\Escritorio\Proyecto final\HotelRivera_Proyecto\bin\Debug\net6.0-windows\HotelRivera_Proyecto.dll
+C:\Users\Aldemar DEV\OneDrive\Escritorio\Proyecto final\HotelRivera_Proyecto\bin\Debug\net6.0-windows\HotelRivera_Proyecto.pdb
+C:\Users\Aldemar DEV\OneDrive\Escritorio\Proyecto final\HotelRivera_Proyecto\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+C:\Users\Aldemar DEV\OneDrive\Escritorio\Proyecto final\HotelRivera_Proyecto\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\Aldemar DEV\OneDrive\Escritorio\Proyecto final\HotelRivera_Proyecto\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\Aldemar DEV\OneDrive\Escritorio\Proyecto final\HotelRivera_Proyecto\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\Aldemar DEV\OneDrive\Escritorio\Proyecto final\HotelRivera_Proyecto\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Aldemar DEV\OneDrive\Escritorio\Proyecto final\HotelRivera_Proyecto\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Aldemar DEV\OneDrive\Escritorio\Proyecto final\HotelRivera_Proyecto\obj\Debug\net6.0-windows\HotelRivera_Proyecto.csproj.AssemblyReference.cache
+C:\Users\Aldemar DEV\OneDrive\Escritorio\Proyecto final\HotelRivera_Proyecto\obj\Debug\net6.0-windows\HotelRivera_Proyecto.Presentacion.Facturas.resources
+C:\Users\Aldemar DEV\OneDrive\Escritorio\Proyecto final\HotelRivera_Proyecto\obj\Debug\net6.0-windows\HotelRivera_Proyecto.Presentacion.Habitaciones.resources
+C:\Users\Aldemar DEV\OneDrive\Escritorio\Proyecto final\HotelRivera_Proyecto\obj\Debug\net6.0-windows\HotelRivera_Proyecto.Presentacion.Informes.resources
+C:\Users\Aldemar DEV\OneDrive\Escritorio\Proyecto final\HotelRivera_Proyecto\obj\Debug\net6.0-windows\HotelRivera_Proyecto.Presentacion.Inicio.Admin.resources
+C:\Users\Aldemar DEV\OneDrive\Escritorio\Proyecto final\HotelRivera_Proyecto\obj\Debug\net6.0-windows\HotelRivera_Proyecto.Presentacion.Inicio.Cambiodecotraseña.resources
+C:\Users\Aldemar DEV\OneDrive\Escritorio\Proyecto final\HotelRivera_Proyecto\obj\Debug\net6.0-windows\HotelRivera_Proyecto.Presentacion.Inicio.codigoderecuperacion.resources
+C:\Users\Aldemar DEV\OneDrive\Escritorio\Proyecto final\HotelRivera_Proyecto\obj\Debug\net6.0-windows\HotelRivera_Proyecto.Login.resources
+C:\Users\Aldemar DEV\OneDrive\Escritorio\Proyecto final\HotelRivera_Proyecto\obj\Debug\net6.0-windows\HotelRivera_Proyecto.Presentacion.Inicio.Menu.resources
+C:\Users\Aldemar DEV\OneDrive\Escritorio\Proyecto final\HotelRivera_Proyecto\obj\Debug\net6.0-windows\HotelRivera_Proyecto.Presentacion.Registros.resources
+C:\Users\Aldemar DEV\OneDrive\Escritorio\Proyecto final\HotelRivera_Proyecto\obj\Debug\net6.0-windows\HotelRivera_Proyecto.Presentacion.Reserva.resources
+C:\Users\Aldemar DEV\OneDrive\Escritorio\Proyecto final\HotelRivera_Proyecto\obj\Debug\net6.0-windows\HotelRivera_Proyecto.csproj.GenerateResource.cache
+C:\Users\Aldemar DEV\OneDrive\Escritorio\Proyecto final\HotelRivera_Proyecto\obj\Debug\net6.0-windows\HotelRivera_Proyecto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aldemar DEV\OneDrive\Escritorio\Proyecto final\HotelRivera_Proyecto\obj\Debug\net6.0-windows\HotelRivera_Proyecto.AssemblyInfoInputs.cache
+C:\Users\Aldemar DEV\OneDrive\Escritorio\Proyecto final\HotelRivera_Proyecto\obj\Debug\net6.0-windows\HotelRivera_Proyecto.AssemblyInfo.cs
+C:\Users\Aldemar DEV\OneDrive\Escritorio\Proyecto final\HotelRivera_Proyecto\obj\Debug\net6.0-windows\HotelRivera_Proyecto.csproj.CoreCompileInputs.cache
+C:\Users\Aldemar DEV\OneDrive\Escritorio\Proyecto final\HotelRivera_Proyecto\obj\Debug\net6.0-windows\HotelRivera_Proyecto.csproj.CopyComplete
+C:\Users\Aldemar DEV\OneDrive\Escritorio\Proyecto final\HotelRivera_Proyecto\obj\Debug\net6.0-windows\HotelRivera_Proyecto.dll
+C:\Users\Aldemar DEV\OneDrive\Escritorio\Proyecto final\HotelRivera_Proyecto\obj\Debug\net6.0-windows\refint\HotelRivera_Proyecto.dll
+C:\Users\Aldemar DEV\OneDrive\Escritorio\Proyecto final\HotelRivera_Proyecto\obj\Debug\net6.0-windows\HotelRivera_Proyecto.pdb
+C:\Users\Aldemar DEV\OneDrive\Escritorio\Proyecto final\HotelRivera_Proyecto\obj\Debug\net6.0-windows\HotelRivera_Proyecto.genruntimeconfig.cache
+C:\Users\Aldemar DEV\OneDrive\Escritorio\Proyecto final\HotelRivera_Proyecto\obj\Debug\net6.0-windows\ref\HotelRivera_Proyecto.dll
