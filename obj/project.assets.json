@@ -475,11 +475,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Aldemar DEV\\OneDrive\\Escritorio\\Proyecto final Jose\\HotelRivera_Proyecto_Jose\\HotelRivera_Proyecto.csproj",
+      "projectUniqueName": "C:\\Users\\Aldemar DEV\\OneDrive\\Escritorio\\Proyecto final Jose\\HotelRivera_Proyecto_inicio\\HotelRivera_Proyecto.csproj",
       "projectName": "HotelRivera_Proyecto",
-      "projectPath": "C:\\Users\\Aldemar DEV\\OneDrive\\Escritorio\\Proyecto final Jose\\HotelRivera_Proyecto_Jose\\HotelRivera_Proyecto.csproj",
+      "projectPath": "C:\\Users\\Aldemar DEV\\OneDrive\\Escritorio\\Proyecto final Jose\\HotelRivera_Proyecto_inicio\\HotelRivera_Proyecto.csproj",
       "packagesPath": "C:\\Users\\Aldemar DEV\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Aldemar DEV\\OneDrive\\Escritorio\\Proyecto final Jose\\HotelRivera_Proyecto_Jose\\obj\\",
+      "outputPath": "C:\\Users\\Aldemar DEV\\OneDrive\\Escritorio\\Proyecto final Jose\\HotelRivera_Proyecto_inicio\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Aldemar DEV\\AppData\\Roaming\\NuGet\\NuGet.Config",

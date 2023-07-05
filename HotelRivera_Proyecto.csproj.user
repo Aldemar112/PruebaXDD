@@ -25,6 +25,9 @@
     <Compile Update="Presentacion\Inicio\Menu.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Presentacion\Registro\RegistroAcompañantes.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Presentacion\Registro\Registros.cs">
       <SubType>Form</SubType>
     </Compile>
