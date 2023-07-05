@@ -13,10 +13,19 @@
     <Compile Update="Presentacion\Inicio\Admin.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Presentacion\Inicio\Cambiodecotraseña.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Presentacion\Inicio\codigoderecuperacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Presentacion\Inicio\Login.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Presentacion\Inicio\Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Presentacion\Registro\RegistroAcompañantes.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Presentacion\Registro\Registros.cs">
