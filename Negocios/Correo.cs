@@ -5,23 +5,18 @@ using System.Net.Mail;
 using System.Net;
 using System.Text;
 using System.Threading.Tasks;
-using HotelRivera_Proyecto.Presentacion;
-using HotelRivera_Proyecto.Entidades;
-using HotelRivera_Proyecto.Datos;
 
 namespace HotelRivera_Proyecto.Negocios
 {
     public class Correo
     {
-
-        public static void Enviarcorreo()
+        public static void RecuperarContra(string contra)
         {
-            string codigo=Encriptacion.GetRandomPassword();
             const string remitente = "pruebahotel12@gmail.com";
-            const string contraseña = "uuzvaifuyzviofoz";
+            const string contraseña = "tiwidzxyywisgfiz";
             const string asunto = "Restauracion de usuario Hotel Rivera";
-            string cuerpo = "Usuario admin su contraseña ha sido reestablecida a : " + codigo;
-            string destinatario = Global.Correo;
+            string cuerpo = "Usuario admin su contraseña ha sido reestablecida a : " + contra;
+            string destinatario = "omar12301moya@gmail.com";
 
             // Configurar las credenciales de autenticación
 
@@ -44,7 +39,6 @@ namespace HotelRivera_Proyecto.Negocios
             {
                 Console.WriteLine("Error al enviar el correo electrónico: " + ex.Message);
             }
-            Global.Codigo= codigo;
         }
     }
 }

@@ -2,11 +2,11 @@ Create database Hotel_Rivera
 use Hotel_Rivera
 
 --Roles como Admin y Recepcionista
-Create table Roles(
+Create table Roles(--
 	Codigo int primary key,
 	Nombre varchar(50)
 )
-Create table Usuario(
+Create table Usuario(--
 	Cedula varchar(15) primary key,
 	Nombre varchar(70),
 	Contraseña Varchar(100),
@@ -16,41 +16,41 @@ Create table Usuario(
 	Foreign key (CodRoles) references Roles(Codigo)
 )
 --Estados como Inactivo, Cancelado, En uso, Facturado
-Create table Estado(
+Create table Estado(--
 	Codigo int primary key,
 	Nombre varchar(50)
 )
 --Habitaicones como Quintuple, Twin, Apto, Suite, Doble
-Create table TipoHabitacion(
+Create table TipoHabitacion(--
 	Codigo int primary key,
 	Nombre varchar(50)
 )
 --Metodo como Efectivo y Tarjeta
-Create table MetodoAbono(
+Create table MetodoAbono(--
 	Codigo int primary key,
 	Nombre varchar(50)
 )
 --Tipos como CC,TI y CE
-Create table TipoDocumento(
+Create table TipoDocumento(--
 	Codigo int primary key,
 	Nombre varchar(50)
 )
 --Booking, Telefono, Presencial y no hay
-Create table MetodoReserva(
+Create table MetodoReserva(--
 	Codigo int primary key,
 	Nombre varchar(50)
 )
-Create table Pais(
+Create table Pais(--
 	Codigo int primary key,
 	Nombre varchar(50)
 )
-Create table Departamento(
+Create table Departamento(--
 	Codigo int primary key,
 	Nombre varchar(50),
 	CodPais int,
 	Foreign key (CodPais) References Pais(Codigo)
 )
-Create table Ciudad(
+Create table Ciudad(--
 	Codigo int primary key,
 	Nombre varchar(50),
 	CodDepartamento int,
@@ -73,7 +73,7 @@ Create table Cliente(
 	Foreign key (Nacionalidad) references Pais(Codigo)
 )
 
-Create table Habitacion(
+Create table Habitacion(--
 	NumHabitacion varchar(5) primary key,
 	Descripcion varchar(60),
 	AireAcondicionado bit,
@@ -84,7 +84,7 @@ Create table Habitacion(
 )
 
 Create table Reserva(
-	Codigo int primary key,
+	Codigo int primary key identity(1,1),
 	NumHabitacion varchar(5),
 	FechaIngreso datetime,
 	FechaSalida datetime,
@@ -97,7 +97,7 @@ Create table Reserva(
 )
 
 Create table Descripcion(
-	Codigo int primary key,
+	Codigo int primary key identity(1,1),
 	CodReserva int,
 	Cantidad int,
 	Descripcion varchar(100),
@@ -106,7 +106,7 @@ Create table Descripcion(
 )
 
 Create table Huespedes(
-	Codigo int primary key,
+	Codigo int primary key identity(1,1),
 	NumDocuTitular varchar(20),
 	CodReserva int,
 	NumDocuAcompañante varchar(20),
@@ -129,7 +129,7 @@ Create table Factura(
 )
 
 Create table FacturaReservas(
-	Codigo int primary key,
+	Codigo int primary key identity(1,1),
 	CodReserva int,
 	CodFactura varchar(5),
 	Total Float,
@@ -147,6 +147,3 @@ CREATE TABLE Abonos(
 )
 
 alter authorization on database:: Hotel_Rivera to sa
-
-
-select * from Departamento where CodPais = 82

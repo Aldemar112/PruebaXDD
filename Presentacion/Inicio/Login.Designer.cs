@@ -33,7 +33,6 @@
             txtContraseña = new TextBox();
             txtCedula = new TextBox();
             btnIngresar = new Button();
-            Btnenviarcodigo = new Button();
             SuspendLayout();
             // 
             // label2
@@ -78,22 +77,11 @@
             btnIngresar.UseVisualStyleBackColor = true;
             btnIngresar.Click += btnIngresar_Click;
             // 
-            // Btnenviarcodigo
-            // 
-            Btnenviarcodigo.Location = new Point(423, 316);
-            Btnenviarcodigo.Name = "Btnenviarcodigo";
-            Btnenviarcodigo.Size = new Size(75, 23);
-            Btnenviarcodigo.TabIndex = 10;
-            Btnenviarcodigo.Text = "Recuperar contraseña";
-            Btnenviarcodigo.UseVisualStyleBackColor = true;
-            Btnenviarcodigo.Click += Btnenviarcodigo_Click;
-            // 
             // Login
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(654, 370);
-            Controls.Add(Btnenviarcodigo);
             Controls.Add(label2);
             Controls.Add(label1);
             Controls.Add(txtContraseña);
@@ -113,6 +101,5 @@
         private TextBox txtContraseña;
         private TextBox txtCedula;
         private Button btnIngresar;
-        private Button Btnenviarcodigo;
     }
 }

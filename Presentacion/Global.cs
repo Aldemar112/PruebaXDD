@@ -8,7 +8,6 @@ namespace HotelRivera_Proyecto.Presentacion
 {
     public class Global
     {
-        public static string Codigo { get; set; }
         public static string Cedula { get; set; }
         public static string Nombre { get; set; }
         public static string Contraseña { get; set; }
